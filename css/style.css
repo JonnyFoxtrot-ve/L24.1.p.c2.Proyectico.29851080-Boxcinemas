@@ -1,0 +1,48 @@
+section {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 0px;
+}
+
+section table {
+  border-collapse: collapse; /* Esto asegura que los bordes se colapsen */
+  width: 100%;
+}
+
+section table,
+section table th,
+section table td {
+  border: 1px solid #000; /* Bordes negros para la tabla y celdas */
+}
+
+section table th {
+  background-color: #f2f2f2; /* Color de fondo para los encabezados */
+  text-align: left; /* Alineación del texto en los encabezados */
+}
+
+section table td {
+  padding: 8px; /* Espaciado interno para las celdas */
+}
+
+section table th {
+  background-color: #f2f2f2;
+  text-align: left;
+  font-size: 16px; /* Tamaño de fuente para encabezados */
+  font-weight: bold; /* Negrita para encabezados */
+  color: #333; /* Color del texto */
+}
+
+section table td {
+  font-size: 14px; /* Tamaño de fuente para celdas */
+  color: #555; /* Color del texto */
+}
+
+h3 {
+  font-size: 24px; /* Tamaño de fuente para el título principal */
+  color: #2c3e50; /* Color del título principal */
+}
+
+h5 {
+  font-size: 18px; /* Tamaño de fuente para subtítulos */
+  color: #34495e; /* Color de subtítulos */
+}
